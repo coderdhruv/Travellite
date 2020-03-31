@@ -37,10 +37,9 @@ class App extends Component {
             <Route path="/account" component={Account} />
             <Route path="/search" component={SearchPage} />
             <Route path="/about" component={AboutPage} />
-            <Route path="/">
-              {" "}
+            <Route path="/">              
               This is the index page.Select /x to go to page x
-            </Route>
+            </Route> 
           </Switch>
         </div>
       </BrowserRouter>
