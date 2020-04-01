@@ -52,11 +52,15 @@ class App extends Component {
             <Route path="/account" component={Account} />
             <Route path="/search" component={SearchPage}/>
             <Route path="/about" component={AboutPage} />
+<<<<<<< HEAD
             <Route path="/addPost" component={AddPost} />
             <Route exact path="/">
               {" "}
+=======
+            <Route path="/">              
+>>>>>>> a49e46014d9fa08c8961a3615695d9cd1a7ff2fa
               This is the index page.Select /x to go to page x
-            </Route>
+            </Route> 
           </Switch>
         </div>
       </BrowserRouter>
